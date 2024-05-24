@@ -14,6 +14,7 @@ header{
     overflow: hidden;
     position: relative;
     object-fit: cover;
+    margin-bottom: 7vh;
 }
 .header-image{
     position: absolute;
@@ -95,4 +96,53 @@ header{
 color: grey;
 padding-left: 20px;
 padding-top: 10px;
+}
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+}
+.box{
+    position: relative;
+    width: 350px;
+    height: 240px;
+    margin: 0.2px 9px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgb(243,240,240);
+    border: 1px solid rgb(232, 219, 219);
+    /* box-shadow: 0 0.1px 0.1px rgb(243, 239, 239); */
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+}
+.white{
+    position: absolute;
+    bottom: 0.2px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+    background-color: white;
+}
+.white p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: rgb(56,56,56);
+    letter-spacing: 0.7px;
+}
+.white p2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.95em;
+    color: rgb(137, 124, 124);
+    letter-spacing: 0.7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight:50;
 }
