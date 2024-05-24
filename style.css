@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-decoration: none;
+}
+h4{
+    font-size: 12px;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.header-image{
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.nav{
+    display: flex;
+    margin: 3vh 10vw;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    margin-right: 60px;
+    list-style: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8vh;
+    align-items: center;
+}
+.logo{
+    width: 20vw;
+}
+.head h3{
+    font-size: 2.1em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 8px;
+    background-color: white;
+    padding: 7px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 17px;
+    padding-top: 10px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.search p{
+    color: gray;
+    border-right: 2px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252,119,119);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.search i{
+color: grey;
+padding-left: 20px;
+padding-top: 10px;
+}
