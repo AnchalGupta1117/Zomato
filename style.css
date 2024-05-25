@@ -250,9 +250,10 @@ margin-left: 100px ;}
 }
 .box-2 div{
     width: 100%;
+    display: flex;
     padding: 0 10px;
     overflow: hidden;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     text-align: center;
     /* margin: 20px; */
     align-items: center;
@@ -278,4 +279,105 @@ margin-left: 100px ;}
     /* padding-left: 250px;
     padding-right: 0;
     padding-bottom: 1px; */
+}
+
+.sec-5{
+    display: flex;
+    margin: 90px;
+    padding: 40px 0;
+    background-color: rgb(255,248,248);
+    height: 450px;
+    width: 100%;
+}
+.flex-contact{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 760px;
+    /* overflow: hidden; */
+}
+.flex-contact img{
+    width: 250px;
+    height: 350px;
+    padding-right: 40px;
+    padding-left: 200px;
+}
+.address{
+    display:flex ;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+.address p{
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    color: rgb(92,91,91);
+    font-weight: 100;
+}
+.address h2{
+    font-size: 2.7rem;
+    font-weight: 25;
+    margin-bottom: 10px;
+    color: rgb(34,34,34);
+}
+.flex-radio{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}
+.flex-radio label{
+    font-size: 1.1rem;
+    color: rgb(49,49,49);
+}
+.radio [type="radio"]{
+    accent-color: rgb(255,92,92);
+}
+.flex-email{
+    position: relative;
+}
+.flex-email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184,183,183);
+    outline: rgb(255,92,92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    left:15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+.flex-email button{
+    width: 150px;
+    height: 47px;
+    border-radius: 6px;
+    border: 1px solid rgb(253,104,104);
+    background-color: rgb(253,104,104);
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+}
+.download{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.flex-app img{
+    width: 210px;
+    height: 35px;
+    margin-left: 5px;
 }
