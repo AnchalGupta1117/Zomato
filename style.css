@@ -47,7 +47,7 @@ header{
     margin-right: 60px;
     list-style: none;
 }
-.nav-barli:hover{
+.nav-bar li:hover{
     cursor: pointer;
 }
 .head{
