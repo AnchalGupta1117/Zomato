@@ -47,6 +47,9 @@ header{
     margin-right: 60px;
     list-style: none;
 }
+.nav-barli:hover{
+    cursor: pointer;
+}
 .head{
     display: flex;
     flex-direction: column;
