@@ -514,6 +514,9 @@ padding-left: 20px;
     margin-right: 20px;
     font-weight: 100px;
 }
+.first-1 span:hover{
+    text-decoration: underline;
+}
 .first-1:hover{
     cursor: pointer;
 }
@@ -544,6 +547,9 @@ padding-left: 20px;
     text-decoration: none;
     color: gray;
     font-size: 0.9rem;
+}
+.second a:hover{
+    text-decoration: underline;
 }
 .second img{
     width: 137px;
